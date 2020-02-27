@@ -1,0 +1,7 @@
+1.  docker build -t imagebuildinginprocess .
+2.  docker run -p 4000:80 imagebuildinginprocess
+3.  docker login docker.io
+4.  docker tag imagebuildinginprocess <user-name>/get-started:part1
+5.  docker push <user-name>/get-started:part1
+
+6.  docker pull <user-name>/get-started:part1
